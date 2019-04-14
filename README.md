@@ -25,16 +25,16 @@ def ask_name
 	print("What is your name?")
 
 def store_name
-  input()
+	return input()
 
 def personalized_welcome(name)
 	print(f'HI, {name}')
   
 def run_program
-    welcome()
-    ask_name()
-    name = store_name()
-    personalized_welcome(name)
+	welcome()
+	ask_name()
+	name = store_name()
+	personalized_welcome(name)
 ```
 ### Defining Our Methods
 
